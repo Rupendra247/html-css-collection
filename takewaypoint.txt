@@ -1,0 +1,4 @@
+format document with 
+    install prettier extenson
+    right click>> format document with>> configur default format>> prettier
+    go to setting>> setting>> search on save >> check format on save
