@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* direct child selector so (>) these sigh select particular p tag from the parents not from other   */
+        .parent > p , h1{  
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <p>11</p>
+        <p>222</p>
+        <h1>heading one</h1>
+        <div>
+            <p>poopoop</p>
+        </div>
+    </div>
+    <p>33333</p>
+</body>
+</html>

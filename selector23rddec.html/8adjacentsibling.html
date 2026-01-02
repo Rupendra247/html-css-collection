@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* this is sibling selector denote by (~) and  as p tag inside is sibling with h1 */
+        /* this is adjacents sibling  selector denote by (+) and  as  only p  tag  which is down is select  */
+        /* now only p tag (PPPPPtag)  is only taken not other p tag */
+        h1 + p {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>hello</h1>
+        <p>PPPPPtag</p>
+        <span>Ohhh nooo</span>
+        <p>444444</p>
+        <h2>hello2</h2>
+    </div>
+    <p>my name is lenovo loq</p>
+</body>
+</html>
