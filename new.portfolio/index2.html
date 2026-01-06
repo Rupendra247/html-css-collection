@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        background-color: rgb(241, 214, 214);
+      }
+      nav{
+        background-color: rgb(226, 144, 144);
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height:50px ;
+        }
+      nav ul{
+        display: flex;
+        justify-content:center;
+        text-align: center; 
+      }
+      nav li{
+        list-style: none;
+        margin: 15px;
+        font-size: 19px;
+      }
+      .left{
+        font-size: 25px;
+      }
+      .p{
+        margin: 20px;
+      }
+
+      .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Rupendra Portfolio</div>
+          <div class="right">
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Project</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Leave a message</a></li>
+          </ul>
+      </nav>
+    </header>
+    <div class="center">
+          <img src="https://imgs.search.brave.com/cXt46HLlrZNGp9kJHegWLgQpyHI93QproBB3CMfJm1g/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTE1/MzkwMzE2Ni9waG90/by9hZG9yYWJsZS1j/YXQtc2NvdHRpc2gt/c3RyYWl0LXNpdHRp/bmctd2l0aC1yYWlz/ZWQtcGF3LWlzb2xh/dGVkLW9uLXdoaXRl/LWJhY2tncm91bmQu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PTdhN0Z5Y3YwWU1K/VHh5aFFTV2tXSFFL/Z0prcE04TGxOX2Rt/OU5uTG5hTDQ9" alt="image cat" >    
+    </div>
+    
+    <p class="p">About me and my brackground all details</p>
+    <div>
+      <p>next small paragraph</p>
+    </div>
+    <div>
+      <div><i class="fa-brands fa-facebook"><a href="#">Facebook</a></i></div>
+      <div><i class="fa-brands fa-square-linkedin"><a href="www.linkedin.com/in/rupendra-dhungana-a640a8377">Linkedin</a></i></div>
+      <div><i class="fa-brands fa-github"><a href="#">GitHub</a></i></div>
+    </div>
+    <div>
+      <h1>Projects</h1>
+      <p>in sqare box my project</p>
+    </div>
+    <div>
+      <h1>Design</h1>
+      <p>in square box my Design</p>
+    </div>
+    <div>
+      <h1>Skills</h1>
+      <i class="fa-brands fa-python"><a href="#"></a></i>
+      <i class="fa-brands fa-html5"></i>
+      <i class="fa-brands fa-css"></i>
+      <i class="fa-brands fa-square-figma"></i>
+      <i class="fa-brands fa-square-github"></i>
+      <i class="fa-brands fa-git-alt"></i>
+    </div>
+    <div>
+      <h1>Leave me a message</h1>
+      <label for="field">full name :</label>
+      <input type="text" name="full Name" placeholder="Enter Your Full Name" />
+      <label for="field">Gmail :</label>
+      <input type="gmail" name="gmail" placeholder="Enter Gmail" />
+      <label for="field">Passport :</label>
+      <input type="password"name="Passport"placeholder="Enter Strong Passport"/>
+      <button type="submit">submit</button>
+    </div>
+  </body>
+</html>
