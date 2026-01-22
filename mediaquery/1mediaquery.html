@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      p {
+        color: red;
+      }
+      /* mobile */
+      @media (min-width: 0px) and (max-width: 500px) {
+        p {
+          color: green;
+        }
+      }
+      /* tablet */
+      @media (min-width: 501px) and (max-width: 768px) {
+        p {
+          color: purple;
+        }
+      }
+      /* laptop */
+        @media (min-width: 769px) {
+        p {
+          color: blue;
+        }
+      }
+
+    </style>
+  </head>
+  <body>
+    <p>hiiiiii</p>
+  </body>
+</html>
+<!-- mediaquery mobile 0-500  , tablet 501-768 , 769+ desktop -->

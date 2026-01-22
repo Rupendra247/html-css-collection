@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- by default Z-index is 0 -->
+     <!-- we cannot Z-index in satic position -->
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+      }
+      .box1 {
+        width: 100%;
+        height: 300px;
+        background-color: blue;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        z-index: -1;   
+        /* less the z index than it comes below  */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+  </body>
+</html>
